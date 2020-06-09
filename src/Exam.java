@@ -10,18 +10,18 @@ public class Movie
         int sum;
         int price = 0;
        
-       System.out.print("¾Æµ¿ ¼ö:");
+       System.out.print("ì•„ë™ ìˆ˜:");
        children = sc.nextInt();
        
-       System.out.print("¼ºÀÎ ¼ö:");
+       System.out.print("ì„±ì¸ ìˆ˜:");
        adult = sc.nextInt();
        
        sum = children + adult;
        
-       System.out.println("ÃÑ ¼ö·®:" + sum);
+       System.out.println("ì´ ìˆ˜ëŸ‰:" + sum);
        
        price = children*6000 + adult*8000;
        
-       System.out.println("±İ¾×:" + price);
+       System.out.println("ê¸ˆì•¡:" + price);
    }
 }
