@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Movie
+public class Exam
 {
    public static void main(String[] args) {
        
@@ -10,18 +10,18 @@ public class Movie
         int sum;
         int price = 0;
        
-       System.out.print("ì•„ë™ ìˆ˜:");
+       System.out.print("¾Æµ¿ ¼ö:");
        children = sc.nextInt();
        
-       System.out.print("ì„±ì¸ ìˆ˜:");
+       System.out.print("¼ºÀÎ ¼ö:");
        adult = sc.nextInt();
        
        sum = children + adult;
        
-       System.out.println("ì´ ìˆ˜ëŸ‰:" + sum);
+       System.out.println("ÃÑ ¼ö·®:" + sum);
        
        price = children*6000 + adult*8000;
        
-       System.out.println("ê¸ˆì•¡:" + price);
+       System.out.println("±İ¾×:" + price);
    }
 }
