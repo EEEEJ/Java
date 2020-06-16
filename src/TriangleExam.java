@@ -4,7 +4,7 @@ public class TriangleExam {
 		Triangle c = new Triangle(10.2, 17.3);
 		System.out.println("»ï°¢ÇüÀÇ ³ÐÀÌ : >>" + c.getArea());
 		c.setSize(7.5, 9.2);
-		System.out.println("»ï°¢ÇüÀÇ ³ÐÀÌ : >>" + c.getArea());
+		System.out.println("»ï°¢ÇüÀÇd ³ÐÀÌ : >>" + c.getArea());
 	}
 }	
 class Triangle{
